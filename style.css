@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 50px;
+    border: 5px solid black; 
+    border-top-color: white;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    /* display: grid; */
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+
+@keyframes move {
+    0% {
+        transform:  rotate(0g);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
