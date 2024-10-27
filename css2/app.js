@@ -1,1 +1,3 @@
-console.log(Math.floor(Math.random()*5+95));
+let firstName = "Huseyn"
+let lastName = "Quluzade"
+ console.log( "sizi bir daha gormeye shadiq" + " " + firstName + " " + lastName )
