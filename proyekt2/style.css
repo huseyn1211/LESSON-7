@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .header {
     width: 100%;
@@ -11,6 +12,7 @@
     background-image: url(./hero_img.jpg);
     position: relative;
     z-index: -1;
+    font-family: "Nunito", sans-serif;
 }
 
 .header::after {
@@ -107,6 +109,7 @@ main.drop {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    font-family: "Nunito", sans-serif;
 }
 
 .image {
@@ -175,6 +178,7 @@ main.drop {
     align-items: center;
     gap: 30px;
     margin-left: 150px;
+    font-family: "Nunito", sans-serif;
 }
 
 .div-menu1 {
@@ -250,26 +254,31 @@ main.drop {
     justify-content: space-evenly;
     /* gap: 50px; */
 }
-.first-div{
+
+.first-div {
     width: 25%;
 
 }
-.first{
+
+.first {
     background-image: url(./work_4.jpg.webp);
     background-size: cover;
     background-position: center;
 }
-.second{
+
+.second {
     background-image: url(./work_6.jpg.webp);
     background-size: cover;
     background-position: center;
 }
-.three{
+
+.three {
     background-image: url(./work_7.jpg.webp);
     background-size: cover;
     background-position: center;
 }
-.servis{
+
+.servis {
     width: 100%;
     height: 90vh;
     display: flex;
@@ -277,21 +286,25 @@ main.drop {
     align-items: center;
     margin-top: 100px;
     gap: 50px;
+    font-family: "Nunito", sans-serif;
 
 }
-.servis2{
+
+.servis2 {
     font-size: 40px;
 }
-.box{
+
+.box {
     width: 60%;
     height: 35%;
     display: flex;
     gap: 50px;
 }
-.box-all{
+
+.box-all {
     width: 33%;
     height: 100%;
-     border: 1px solid black; 
+    border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     display: flex;
@@ -301,102 +314,302 @@ main.drop {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.div-away{
+.div-away {
     font-size: 12px;
 }
-.icon{
+
+.icon {
     height: 25%;
     font-size: 40px;
     color: #96BB7C;
 }
 
 
-.conteiner{
+.conteiner {
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    font-family: "Nunito", sans-serif;
 }
-.conteiner1{
+
+.conteiner1 {
     width: 17%;
     height: 50%;
-  
+
     background-image: url(./hero_img.jpg);
     background-position: center;
     background-size: cover;
-    
+
     margin-bottom: 70px;
 }
-.conteiner2{
+
+.conteiner2 {
     width: 35%;
     height: 95%;
     display: flex;
     flex-direction: column;
     gap: 15px;
-   
+
 }
-.cont-div{
+
+.cont-div {
     width: 100%;
     height: 10%;
     display: flex;
     gap: 150px;
 }
-.resume{
+
+.resume {
     font-size: 35px;
     margin-bottom: 50px;
 }
-.work{
+
+.work {
     font-size: 25px;
+    margin-bottom: 20px;
 }
-.m-div{
+
+.m-div {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.full-div{
+
+.full-div {
     border-radius: 50px;
-    background-color:#F4F8F2;
+    background-color: #F4F8F2;
     width: 50%;
     font-size: 12px;
-    color: #96BBA2 ;
+    color: #96BBA2;
     text-align: center;
 }
-.half-div{
+
+.half-div {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: end;
 }
-.font-size{
+
+.font-size {
     font-size: 13px;
 }
-.education-div{
+
+.education-div {
     font-size: 25px;
-   
+
 }
-.master-div{
+
+.master-div {
     display: flex;
     flex-direction: column;
     gap: 10px;
-   
+
 }
-.main-education{
+
+.main-education {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 80;
 }
-.div-harvard{
+
+.div-harvard {
     font-size: 12px;
 }
-.study-div{
+
+.study-div {
     margin-top: 30px;
     color: gray;
-    margin-right: 10px;
+    font-size: 14px;
 }
-.pablo{
+
+.pablo {
     color: gray;
-   
+
+}
+
+.enginer {
+    font-size: 13px;
+}
+
+.different-color {
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+    font-family: "Nunito", sans-serif;
+}
+
+.partner {
+    display: flex;
+    width: 70%;
+    height: 60%;
+    gap: 50px;
+    position: relative;
+
+}
+
+/* 
+.partner::after {
+
+
+     content: ""; 
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    background-color: red;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    left: 20;
+} */
+
+
+
+.happy {
+    font-size: 40px;
+}
+
+.partner-div {
+    width: 45%;
+    height: 70%;
+    background-color: #fff;
+    border: solid 1px white;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #9395AB;
+     position: relative; 
+
+}
+
+.partner-div::after {
+    content: "";
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    background-color: #FFF;;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+
+    left: -19px;
+    top: 5;
+
+}
+
+
+
+
+.div-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.text-p {
+    font-size: 19px;
+}
+
+.green {
+    color: #96BB7C;
+}
+
+.jeremy {
+    font-size: 16px;
+}
+
+.div-photo {
+    width: 7%;
+    height: 20%;
+    border: solid 5px white;
+    border-radius: 50%;
+    background-image: url(./person_2.jpg.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.div-photo1 {
+    width: 7%;
+    height: 20%;
+    border: solid 5px white;
+    border-radius: 50%;
+    background-image: url(./person_1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.div-photo2 {
+    width: 7%;
+    height: 20%;
+    border: solid 5px white;
+    border-radius: 50%;
+    background-image: url(./person_3.jpg.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.div-photo3 {
+    width: 7%;
+    height: 20%;
+    border: solid 5px white;
+    border-radius: 50%;
+    background-image: url(./person_4.jpg.webp);
+    background-position: center;
+    background-size: cover;
+
+}
+.div-heading{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding-top: 50px;
+    font-family: "Nunito", sans-serif;
+
+}
+.medium{
+    font-size: 40px;
+}
+.june{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 100px;
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 50px;
+}
+.fronted{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.div-data{
+    font-size: 14px;
+    color: #D1CCCC
+}
+.div-minute{
+    color:#D1CCCC
+}
+.div-main-data{
+    width: 50%;
+}
+.div-last-one{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF;
 }
